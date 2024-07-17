@@ -111,16 +111,17 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Project Intern",
-        company_name: "Microsoft Future Ready Talent",
-        icon: microsoft,
-        iconBg: "#accbe1",
-        date: "Nov 2021 - Feb 2022",
+        title: "Summer Analyst",
+        company_name: "Goldman Sachs",
+        icon: goldman,
+        iconBg: "#ADD8E6",
+        date: "May 2023 - Jul 2023",
         points: [
-            "Enriched foundational Azure skills through comprehensive training, encompassing resource deployment, cloud security management, and development of AI-driven applications with Azure Cognitive Services.",
-            "Successfully engineered and deployed two innovative applications using Azure Static Web Apps, Azure Blob Storage, and  Storage Accounts."
+            "Developed and implemented a real-time data migration system, utilizing Java Spring Boot, MongoDB, and Apache         Zookeeper, resulting in increased operational efficiency and reduced downtime from 11 hours to an impressive 0.3 seconds.",
+            "Executed comprehensive JUnit testing methodologies to validate system integrity and minimize potential risks while        increasing the test coverage by 90%."
         ],
     },
+    
     {
         title: "Web Application Developer",
         company_name: "iDO - Leading Innovations Private Limited",
@@ -134,16 +135,17 @@ export const experiences = [
         ],
     },
     {
-        title: "Summer Analyst",
-        company_name: "Goldman Sachs",
-        icon: goldman,
-        iconBg: "#ADD8E6",
-        date: "May 2023 - Jul 2023",
+        title: "Project Intern",
+        company_name: "Microsoft Future Ready Talent",
+        icon: microsoft,
+        iconBg: "#accbe1",
+        date: "Nov 2021 - Feb 2022",
         points: [
-            "Developed and implemented a real-time data migration system, utilizing Java Spring Boot, MongoDB, and Apache         Zookeeper, resulting in increased operational efficiency and reduced downtime from 11 hours to an impressive 0.3 seconds.",
-            "Executed comprehensive JUnit testing methodologies to validate system integrity and minimize potential risks while        increasing the test coverage by 90%."
+            "Enriched foundational Azure skills through comprehensive training, encompassing resource deployment, cloud security management, and development of AI-driven applications with Azure Cognitive Services.",
+            "Successfully engineered and deployed two innovative applications using Azure Static Web Apps, Azure Blob Storage, and  Storage Accounts."
         ],
     }
+    
 ];
 
 export const socialLinks = [
@@ -175,9 +177,9 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Expense Tracker',
-        description: 'This is a simple expense tracker app built with React. It helps you keep track of your expenses by recording transactions.',
-        link: 'https://github.com/aarshitaacharya/expense-tracker',
+        name: 'Credit Card Fraud Detection',
+        description: 'Developed machine learning models using K-Nearest Neighbors (KNN), Random Forest (RF), and Logistic Regression (LR) algorithms to detect credit card fraud.',
+        link: 'https://github.com/aarshitaacharya/credit-card-fraud-detection',
     },
     {
         iconUrl: car,
